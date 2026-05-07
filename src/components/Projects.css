@@ -1,0 +1,47 @@
+.proj-header { display:flex; align-items:flex-end; margin-bottom:40px; }
+.carousel { display:flex; align-items:center; gap:16px; }
+.carousel-btn {
+  flex-shrink:0; width:48px; height:48px; border-radius:50%;
+  background:rgba(0,212,255,0.1); border:1px solid rgba(0,212,255,0.3);
+  color:var(--cyan); cursor:pointer; display:flex; align-items:center; justify-content:center;
+  transition:all .25s;
+}
+.carousel-btn:hover { background:rgba(0,212,255,0.22); box-shadow:0 0 16px rgba(0,212,255,0.25); }
+.carousel-track { flex:1; display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.proj-card {
+  background:var(--card); border:1px solid var(--border);
+  border-radius:16px; overflow:hidden; backdrop-filter:blur(10px);
+  transition:all .3s;
+}
+.proj-card:hover { border-color:var(--border-h); transform:translateY(-4px); box-shadow:0 0 30px rgba(0,212,255,0.12); }
+.proj-thumb { height:200px; overflow:hidden; position:relative; }
+.proj-thumb img { width:100%; height:100%; object-fit:cover; }
+.proj-thumb-empty {
+  width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+  background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(0,212,255,0.03) 10px,rgba(0,212,255,0.03) 20px);
+  color:var(--soft); font-size:14px; border-bottom:1px solid var(--border);
+}
+.proj-body { padding:20px; }
+.proj-title {
+  font-family:'Syne',sans-serif;
+  font-size:26px;
+  font-weight:900;
+  color:var(--cyan);
+  margin-bottom:8px;
+  text-shadow: 0 0 14px rgba(0,212,255,0.16);
+}
+.proj-desc { font-size:15px; color:var(--soft); line-height:1.8; margin-bottom:14px; }
+.proj-tags { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:14px; }
+.proj-tag {
+  padding:6px 14px; border-radius:50px;
+  background:rgba(0,212,255,0.07); border:1px solid rgba(0,212,255,0.2);
+  font-size:14px; color:var(--text);
+}
+.proj-link {
+  display:inline-flex; align-items:center; gap:6px;
+  font-size:14px; color:var(--cyan); text-decoration:none;
+  border:1px solid rgba(0,212,255,0.3); padding:6px 14px; border-radius:6px;
+  transition:all .2s;
+}
+.proj-link:hover { background:rgba(0,212,255,0.1); }
+@media(max-width:700px){ .carousel-track{grid-template-columns:1fr;} }
