@@ -1,16 +1,16 @@
+import { Sparkles } from 'lucide-react'
 import './Marquee.css'
 
-const items = ['Frontend Developer', '✦✦', 'in Ho Chi Minh City', '❋❋', 'Information Systems', '✦✦', 'VNU-HCM', '❋❋']
-
 export default function Marquee() {
-  const all = [...items, ...items, ...items, ...items]
-
   return (
-    <div className="marquee-wrap">
-      <div className="marquee-track">
-        {all.map((t, i) => <span key={i} className="marquee-item">{t}</span>)}
+    <div className="marquee-wrap" aria-hidden="true">
+      <span className="marquee-line" />
+      <div className="marquee-center">
+        <Sparkles size={16} strokeWidth={2.4} />
+        <span className="marquee-dot" />
+        <Sparkles size={16} strokeWidth={2.4} />
       </div>
+      <span className="marquee-line" />
     </div>
   )
 }
-

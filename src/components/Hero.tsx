@@ -7,9 +7,10 @@ export default function Hero() {
       <div className="hero-left">
         <p className="hero-hello">Hello, I'm</p>
         <h1 className="hero-name">Quynh Nhi</h1>
+        <p className="hero-role">full-stack developer</p>
         <p className="hero-bio">
-          Aspiring Information Systems student with a passion for frontend &amp; mobile development.
-          Quick to learn, eager to build impactful products.
+          Information Systems student focused on responsive web apps, Android products, and
+          practical system design.
         </p>
         <a href="./Resume_NguyenThiQuynhNhi.pdf" download className="hero-btn">
           <Download size={15} /> Download Resume

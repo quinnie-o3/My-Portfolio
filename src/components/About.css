@@ -25,7 +25,7 @@
   text-shadow: 0 0 12px rgba(0,212,255,0.12);
 }
 .tl-role { font-size:15px; color:var(--soft); font-style:italic; }
-.skills-cloud { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; padding:20px 0; }
+.skills-cloud { display:flex; flex-wrap:wrap; gap:12px; justify-content:flex-start; padding:20px 0; }
 .skill-pill {
   padding:10px 22px; border-radius:50px;
   background:rgba(0,212,255,0.08); border:1px solid rgba(0,212,255,0.25);

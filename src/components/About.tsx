@@ -1,19 +1,28 @@
 import './About.css'
 
 const timeline = [
-  { period: 'Apr 2025 – Now', name: 'FUNiX', role: 'English Tutor', icon: '/images/about/FUNiX.png', color: '#00d4ff' },
-  { period: '2023 – Now', name: 'University of Information Technology (VNU-HCM)', role: 'B.Sc. Information Systems | GPA: 8.21/10', icon: '/images/about/uit.svg', color: '#3d8ef8' },
-  { period: '2020 – 2023', name: 'Nguyen Thi Minh Khai High School', role: 'High School Diploma', icon: '/images/about/ntmk.png', color: '#7eb8e8' },
+  { period: 'Apr 2025 - Present', name: 'FUNiX', role: 'Tutor & Mentor', icon: '/images/about/FUNiX.png', color: '#00d4ff' },
+  { period: '2023 - Present', name: 'University of Information Technology (VNU-HCM)', role: 'B.Sc. in Information Systems | GPA: 8.21/10.0', icon: '/images/about/uit.svg', color: '#3d8ef8' },
+  { period: '2020 - 2023', name: 'Nguyen Thi Minh Khai High School', role: 'High School Diploma', icon: '/images/about/ntmk.png', color: '#7eb8e8' },
 ]
 
 const skills = [
+  'System Design',
+  'Agile/Scrum',
+  'Problem Solving',
+  'HTML',
+  'CSS',
   'JavaScript',
   'Java',
   'Python',
   'C++',
+  'Microservices',
+  'RESTful API',
   'OOP',
   'AWS',
+  'Visual Studio',
   'Android Studio',
+  'Git/GitHub',
   'Figma',
   'MongoDB Atlas',
   'MS SQL Server',
@@ -22,14 +31,14 @@ const skills = [
 
 const certificates = [
   {
-    name: 'TOEIC L&R',
-    issuedOn: 'Sep 11, 2025',
-    details: '795/990',
+    name: 'TOEIC Listening & Reading',
+    issuedOn: 'Sep 25, 2025',
+    details: 'Score: 795/990',
     href: './images/about/cert-toeic-lr.jpg',
     color: '#00d4ff',
   },
   {
-    name: 'AWS Cloud Architecting',
+    name: 'AWS Academy Graduate - Cloud Architecting',
     issuedOn: 'Apr 27, 2026',
     details: '',
     href: 'https://www.credly.com/badges/6443d5fd-3174-4d00-83a4-f8544c7317b3/print',
