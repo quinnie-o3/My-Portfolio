@@ -9,7 +9,7 @@ const projects = [
     role: 'Frontend Developer',
     tags: ['JavaScript', 'HTML/CSS', 'Figma', 'PostgreSQL', 'Vercel'],
     desc: 'Hospital management web app for appointment booking and doctor schedule management, built with responsive interfaces from Figma designs.',
-    url: 'https://myhealthcareme.vercel.app/',
+    url: 'https://my-health-care-six.vercel.app/',
     thumb: './images/projects/prj_myhealthcare.png',
   },
   {
