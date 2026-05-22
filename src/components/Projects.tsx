@@ -5,7 +5,7 @@ import './Projects.css'
 const projects = [
   {
     title: 'MyHealthCare',
-    period: 'Oct 2025',
+    period: 'Oct 2025 - Jan 2026',
     role: 'Frontend Developer',
     tags: ['JavaScript', 'HTML/CSS', 'Figma', 'PostgreSQL', 'Vercel'],
     desc: 'Hospital management web app for appointment booking and doctor schedule management, built with responsive interfaces from Figma designs.',
@@ -14,7 +14,7 @@ const projects = [
   },
   {
     title: 'Conscia',
-    period: 'Mar 2026',
+    period: 'Mar 2026 - May 2026',
     role: 'Android Developer',
     tags: ['Java', 'Android Studio', 'MongoDB Atlas', 'Figma', 'Render', 'OOP'],
     desc: 'App usage and intent tracking application with real-time screen time analytics, warning alerts, and scalable background processing.',

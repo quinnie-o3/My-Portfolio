@@ -3,7 +3,6 @@ import './About.css'
 const timeline = [
   { period: 'Apr 2025 - Present', name: 'FUNiX', role: 'Tutor & Mentor', icon: '/images/about/FUNiX.png', color: '#00d4ff' },
   { period: '2023 - Present', name: 'University of Information Technology (VNU-HCM)', role: 'B.Sc. in Information Systems | GPA: 8.21/10.0', icon: '/images/about/uit.svg', color: '#3d8ef8' },
-  { period: '2020 - 2023', name: 'Nguyen Thi Minh Khai High School', role: 'High School Diploma', icon: '/images/about/ntmk.png', color: '#7eb8e8' },
 ]
 
 const skills = [
@@ -35,6 +34,13 @@ const certificates = [
     issuedOn: 'Sep 25, 2025',
     details: 'Score: 795/990',
     href: './images/about/cert-toeic-lr.jpg',
+    color: '#00d4ff',
+  },
+  {
+    name: 'TOEIC Speaking & Writing',
+    issuedOn: 'May 15, 2026',
+    details: 'Score: 300/400',
+    href: './images/about/cert-toeic-sw.jpg',
     color: '#00d4ff',
   },
   {
