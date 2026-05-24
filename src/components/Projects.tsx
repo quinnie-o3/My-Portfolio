@@ -17,10 +17,19 @@ const projects = [
     period: 'Mar 2026 - May 2026',
     role: 'Android Developer',
     tags: ['Java', 'Android Studio', 'MongoDB Atlas', 'Figma', 'Render', 'OOP'],
-    desc: 'App usage and intent tracking application with real-time screen time analytics, warning alerts, and scalable background processing.',
-    url: '',
+    desc: 'A mobile application for usage and intent tracking with real-time screen time analytics, warning alerts, and scalable background processing.',
+    url: 'https://github.com/quinnie-o3/Conscia-monorepo',
     thumb: './images/projects/prj_conscia.png',
   },
+  {
+    title: 'Digital Notebook',
+    period: 'Jun 2026 - May 2026',
+    role: 'Fullstack Developer',
+    tags: ['Vite', 'HTML/CSS', 'Spring Boot', 'MongoDB Atlas', 'Vercel', 'Render'],
+    desc: 'Interactive digital notebook application for scheduling, note-taking and organization for students.',
+    url: 'https://digital-notebook-rho.vercel.app/',
+    thumb: './images/projects/prj_digital_notebook.png',
+  }
 ]
 
 export default function Projects() {
