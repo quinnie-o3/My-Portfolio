@@ -25,7 +25,7 @@ const projects = [
     title: 'Digital Notebook',
     period: 'Jun 2026 - May 2026',
     role: 'Fullstack Developer',
-    tags: ['Vite', 'HTML/CSS', 'Spring Boot', 'MongoDB Atlas', 'Vercel', 'Render'],
+    tags: ['ReactJS', 'HTML/CSS', 'Spring Boot', 'MongoDB Atlas', 'Vercel', 'Render'],
     desc: 'Interactive digital notebook application for scheduling, note-taking and organization for students.',
     url: 'https://digital-notebook-rho.vercel.app/',
     thumb: './images/projects/prj_digital_notebook.png',

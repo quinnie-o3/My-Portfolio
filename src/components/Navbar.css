@@ -1,15 +1,15 @@
 .navbar {
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  display: flex; align-items: center; gap: 24px;
-  padding: 18px 40px;
+  display: flex; align-items: center; gap: 18px;
+  padding: 14px 32px;
   backdrop-filter: blur(16px);
   background: rgba(2,11,24,0.6);
   border-bottom: 1px solid rgba(0,212,255,0.07);
 }
 .nav-dashed { flex: 1; border-top: 1px dashed rgba(0,212,255,0.18); }
-.nav-links { display: flex; gap: 36px; list-style: none; }
+.nav-links { display: flex; gap: 28px; list-style: none; }
 .nav-links a {
-  color: var(--soft); text-decoration: none; font-size: 14px;
+  color: var(--soft); text-decoration: none; font-size: 13px;
   letter-spacing: .05em; transition: color .2s;
 }
 .nav-links a:hover { color: var(--cyan); }

@@ -43,13 +43,34 @@ const certificates = [
     href: './images/about/cert-toeic-sw.jpg',
     color: '#00d4ff',
   },
+    {
+    name: 'Foundations of User Experience (UX) Design',
+    issuedOn: 'June 4, 2026',
+    details: '',
+    href: 'https://coursera.org/share/b1f18b34e2876e76ce21c87f633b966f',
+    color: '#3d8ef8',
+  },
+  {
+    name: 'Foundations: Data, Data, Everywhere',
+    issuedOn: 'June 5, 2026',
+    details: '',
+    href: 'https://coursera.org/share/925f426a84c23bdfd2d975181f0a7156',
+    color: '#3d8ef8',
+  },
+  {
+    name: 'AWS Academy Graduate - Microservices and CI/CD Pipeline Builder',
+    issuedOn: 'Feb 5, 2026',
+    details: '',
+    href: 'https://www.credly.com/badges/ae063e88-3fa1-4671-86cc-6a2f172fe8b0/public_url',
+    color: '#3d8ef8',
+  },
   {
     name: 'AWS Academy Graduate - Cloud Architecting',
     issuedOn: 'Apr 27, 2026',
     details: '',
-    href: 'https://www.credly.com/badges/6443d5fd-3174-4d00-83a4-f8544c7317b3/print',
+    href: 'https://www.credly.com/badges/6443d5fd-3174-4d00-83a4-f8544c7317b3/public_url',
     color: '#3d8ef8',
-  },
+  }
 ]
 
 export default function About() {
@@ -77,7 +98,7 @@ export default function About() {
         ))}
       </div>
 
-      <p className="sec-subtitle" style={{ marginTop: 60 }}>
+      <p className="sec-subtitle" style={{ marginTop: 46 }}>
         SKILLS.
       </p>
       <div className="skills-cloud">
@@ -88,7 +109,7 @@ export default function About() {
         ))}
       </div>
 
-      <p className="sec-subtitle" style={{ marginTop: 48 }}>
+      <p className="sec-subtitle" style={{ marginTop: 36 }}>
         CERTIFICATES.
       </p>
       <div className="cert-list">

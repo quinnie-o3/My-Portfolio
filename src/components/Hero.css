@@ -1,8 +1,8 @@
 .hero {
   min-height: 100vh; display: flex; align-items: center;
-  justify-content: space-between; gap: 40px;
-  padding-top: 100px; position: relative; z-index: 1;
-  max-width: 1100px; margin: 0 auto; padding-left: 32px; padding-right: 32px;
+  justify-content: space-between; gap: 32px;
+  padding-top: 82px; position: relative; z-index: 1;
+  max-width: 1060px; margin: 0 auto; padding-left: 24px; padding-right: 24px;
 }
 .hero-left {
   flex: 1;
@@ -10,11 +10,11 @@
   flex-direction: column;
   align-items: flex-start;
 }
-.hero-hello { font-size: 25px; color: var(--cyan); margin-bottom: 8px; font-style: italic; }
+.hero-hello { font-size: 20px; color: var(--cyan); margin-bottom: 6px; font-style: italic; }
 .hero-name {
   font-family: 'Syne',sans-serif; font-weight: 900;
-  font-size: clamp(2.35rem,6vw,5.1rem); line-height: 0.95;
-  color: var(--text); margin-bottom: 10px;
+  font-size: clamp(2.1rem,5vw,4.35rem); line-height: 0.98;
+  color: var(--text); margin-bottom: 8px;
   text-decoration: none; text-decoration-color: var(--cyan);
   text-underline-offset: 8px;
   text-shadow: 0 0 16px rgba(0,212,255,0.16), 0 0 30px rgba(189,221,243,0.08);
@@ -22,32 +22,32 @@
 }
 .hero-role {
   font-family: 'Syne',sans-serif;
-  font-size: clamp(1.15rem,2.3vw,1.6rem);
+  font-size: clamp(1rem,1.9vw,1.35rem);
   font-style: italic;
   font-weight: 800;
   letter-spacing: 0.08em;
   color: var(--soft);
-  margin: 0 0 20px;
+  margin: 0 0 16px;
   text-align: left;
 }
 .hero-bio {
-  font-size: 16px; color: var(--soft); line-height: 1.85;
-  max-width: 540px; margin-bottom: 36px;
+  font-size: 14px; color: var(--soft); line-height: 1.72;
+  max-width: 480px; margin-bottom: 28px;
 }
 .hero-btn {
   display: inline-flex; align-items: center; gap: 8px;
   background: rgba(0,212,255,0.1); border: 1px solid var(--cyan);
-  color: var(--cyan); padding: 12px 28px; border-radius: 8px;
-  font-family: 'DM Mono',monospace; font-size: 16px; font-weight: 700;
+  color: var(--cyan); padding: 10px 22px; border-radius: 7px;
+  font-family: 'DM Mono',monospace; font-size: 14px; font-weight: 700;
   text-decoration: none; cursor: pointer; transition: all .25s;
 }
 .hero-btn:hover { background: rgba(0,212,255,0.2); box-shadow: 0 0 24px rgba(0,212,255,0.3); transform: translateY(-2px); }
 .hero-right { position: relative; flex-shrink: 0; }
 .hero-avatar-ring {
-  width: 340px; height: 340px; border-radius: 50%;
+  width: 292px; height: 292px; border-radius: 50%;
   border: 2px solid rgba(0,212,255,0.3);
-  padding: 8px; background: rgba(10,36,68,0.4);
-  box-shadow: 0 0 60px rgba(0,212,255,0.1);
+  padding: 7px; background: rgba(10,36,68,0.4);
+  box-shadow: 0 0 44px rgba(0,212,255,0.1);
 }
 .hero-avatar {
   width: 100%; height: 100%; border-radius: 50%; overflow: hidden;
@@ -55,16 +55,16 @@
   display: flex; align-items: center; justify-content: center;
 }
 .hero-avatar img { width:100%; height:100%; object-fit:cover; }
-.avatar-fallback { font-family:'Syne',sans-serif; font-size:3rem; font-weight:800; color:rgba(0,212,255,0.4); }
-.deco { position:absolute; color:var(--cyan); font-size:1.5rem; opacity:.5; }
-.deco1{top:-10px;right:60px;font-size:2rem;}
-.deco2{top:20px;right:20px;font-size:2.5rem;opacity:.7;}
-.deco3{bottom:40px;left:-20px;font-size:2rem;}
-.deco4{bottom:0;right:80px;}
+.avatar-fallback { font-family:'Syne',sans-serif; font-size:2.5rem; font-weight:800; color:rgba(0,212,255,0.4); }
+.deco { position:absolute; color:var(--cyan); font-size:1.25rem; opacity:.5; }
+.deco1{top:-8px;right:52px;font-size:1.7rem;}
+.deco2{top:18px;right:18px;font-size:2.1rem;opacity:.7;}
+.deco3{bottom:34px;left:-16px;font-size:1.7rem;}
+.deco4{bottom:0;right:68px;}
 @media(max-width:768px){
-  .hero{flex-direction:column;text-align:center;padding-left:24px;padding-right:24px;}
+  .hero{flex-direction:column;text-align:center;padding-left:22px;padding-right:22px;}
   .hero-left{align-items:center;}
   .hero-role{text-align:center;}
-  .hero-avatar-ring{width:240px;height:240px;}
-  .hero-bio{margin:0 auto 36px;}
+  .hero-avatar-ring{width:210px;height:210px;}
+  .hero-bio{margin:0 auto 28px;}
 }

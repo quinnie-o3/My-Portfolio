@@ -1,9 +1,9 @@
 .marquee-wrap {
   display: flex;
   align-items: center;
-  gap: 16px;
-  width: min(1100px, calc(100% - 64px));
-  margin: 12px auto;
+  gap: 13px;
+  width: min(1060px, calc(100% - 48px));
+  margin: 8px auto;
   color: rgba(0,212,255,0.82);
   position: relative;
   z-index: 1;
@@ -18,18 +18,18 @@
 .marquee-center {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 8px 0;
+  gap: 8px;
+  padding: 6px 0;
 }
 
 .marquee-dot {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
   border-radius: 999px;
   background: var(--cyan);
   box-shadow: 0 0 12px rgba(0,212,255,0.6);
 }
 
 @media(max-width:768px){
-  .marquee-wrap{width:calc(100% - 48px);gap:12px;}
+  .marquee-wrap{width:calc(100% - 44px);gap:10px;}
 }

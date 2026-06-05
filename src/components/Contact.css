@@ -1,28 +1,28 @@
 .contact-layout {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .contact-links {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 14px;
-  max-width: 820px;
+  gap: 11px;
+  max-width: 720px;
 }
 
 .contact-pill {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 12px 22px;
+  gap: 8px;
+  padding: 9px 17px;
   border-radius: 50px;
   background: rgba(0, 212, 255, 0.08);
   border: 1px solid rgba(0, 212, 255, 0.25);
   color: var(--text);
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 700;
   transition: all 0.25s;
 }
@@ -36,8 +36,8 @@
 }
 
 .contact-icon {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   display: inline-flex;
   align-items: center;
@@ -47,14 +47,14 @@
 
 .contact-icon--brand {
   background: rgba(255, 255, 255, 0.95);
-  padding: 4px;
+  padding: 3px;
 }
 
 .contact-icon--fallback {
   background: rgba(0, 212, 255, 0.12);
   border: 1px solid rgba(0, 212, 255, 0.22);
   color: var(--cyan);
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 700;
   letter-spacing: 0.04em;
 }
@@ -67,10 +67,10 @@
 
 @media (max-width: 768px) {
   .contact-layout {
-    margin-top: 32px;
+    margin-top: 24px;
   }
 
   .contact-links {
-    gap: 12px;
+    gap: 10px;
   }
 }
