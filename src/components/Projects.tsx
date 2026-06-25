@@ -8,6 +8,7 @@ type Project = {
   tags: string[]
   summary: string
   responsibilities: string[]
+  tone: 'mint' | 'sky' | 'lavender' | 'peach' | 'rose'
   url?: string
   linkLabel?: string
 }
@@ -38,6 +39,7 @@ const projectGroups: ProjectGroup[] = [
         title: 'Conscia',
         period: 'Mar 2026 - May 2026',
         role: 'Full-stack Developer',
+        tone: 'lavender',
         tags: ['Java', 'Android Studio', 'MongoDB Atlas', 'Figma', 'Render'],
         url: 'https://github.com/quinnie-o3/Conscia-monorepo',
         linkLabel: 'View Repository',
@@ -52,6 +54,7 @@ const projectGroups: ProjectGroup[] = [
         title: 'MyHealthCare',
         period: 'Oct 2025 - Jan 2026',
         role: 'Front-end Developer',
+        tone: 'sky',
         tags: ['JavaScript', 'HTML/CSS', 'Figma', 'PostgreSQL', 'MongoDB Atlas', 'Vercel'],
         url: 'https://my-health-care-six.vercel.app/',
         linkLabel: 'View Live',
@@ -71,6 +74,7 @@ const projectGroups: ProjectGroup[] = [
         title: 'Telecom Churn Prediction',
         period: 'Nov 2025',
         role: 'Data Analyst',
+        tone: 'mint',
         tags: ['Python', 'SQL', 'Statistical Analysis', 'Data Visualization', 'Machine Learning'],
         summary: 'Customer behavior analysis for telecom churn prediction.',
         responsibilities: [
@@ -89,6 +93,7 @@ const projectGroups: ProjectGroup[] = [
         title: 'LapZone',
         period: 'Oct 2025 - Dec 2025',
         role: 'System Analyst',
+        tone: 'peach',
         tags: ['Requirement Gathering', 'UML', 'Business Process Analysis', 'Relational Data Modeling'],
         summary: 'System analysis and design for a laptop e-commerce platform.',
         responsibilities: [
@@ -115,7 +120,7 @@ export default function Projects() {
             <h3 className="project-group-title">{group.title}</h3>
             <div className="project-list">
               {group.projects.map((project) => (
-                <article key={project.title} className="project-item">
+                <article key={project.title} className={`project-item tone-${project.tone}`}>
                   <div className="project-item-head">
                     <div>
                       <h4 className="project-title">{project.title}</h4>
