@@ -21,19 +21,19 @@ const projectGroups: ProjectGroup[] = [
   {
     title: 'Web / Mobile application projects',
     projects: [
-      {
-        title: 'Digital Notebook',
-        period: 'Apr 2026 - Present',
-        role: 'Full-stack Developer',
-        tags: ['Spring Boot', 'Vite', 'HTML/CSS', 'MongoDB Atlas', 'Vercel', 'Render'],
-        url: 'https://digital-notebook-rho.vercel.app/',
-        linkLabel: 'View Live',
-        summary: 'Scheduling and note-taking platform for UIT students.',
-        responsibilities: [
-          'Designed a synchronized platform that connects academic schedules with personal notes, helping students manage deadlines, study plans, and learning materials in one place.',
-          'Built RESTful APIs with Spring Boot and developed the Vite-based frontend to keep features scalable and data consistent.',
-        ],
-      },
+      // {
+      //   title: 'Digital Notebook',
+      //   period: 'Apr 2026 - Present',
+      //   role: 'Full-stack Developer',
+      //   tags: ['Spring Boot', 'Vite', 'HTML/CSS', 'MongoDB Atlas', 'Vercel', 'Render'],
+      //   url: 'https://digital-notebook-rho.vercel.app/',
+      //   linkLabel: 'View Live',
+      //   summary: 'Scheduling and note-taking platform for UIT students.',
+      //   responsibilities: [
+      //     'Designed a synchronized platform that connects academic schedules with personal notes, helping students manage deadlines, study plans, and learning materials in one place.',
+      //     'Built RESTful APIs with Spring Boot and developed the Vite-based frontend to keep features scalable and data consistent.',
+      //   ],
+      // },
       {
         title: 'Conscia',
         period: 'Mar 2026 - May 2026',

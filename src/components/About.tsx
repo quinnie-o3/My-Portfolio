@@ -62,19 +62,19 @@ const certificates = [
     href: 'https://www.credly.com/badges/ae063e88-3fa1-4671-86cc-6a2f172fe8b0/public_url',
     color: '#00d4ff',
   },
-  {
-    name: 'Crash Course on Python',
-    issuedOn: '23 June, 2026',
-    details: '',
-    href: 'https://coursera.org/share/9adce459f7fd836e3481bc2ae1540db2',
-    color: '#00d4ff',
-  },
-
+  
     {
     name: 'AWS Academy Graduate - Cloud Architecting',
     issuedOn: 'Apr 27, 2026',
     details: '',
     href: 'https://www.credly.com/badges/6443d5fd-3174-4d00-83a4-f8544c7317b3/public_url',
+    color: '#00d4ff',
+  },
+  {
+    name: 'Crash Course on Python',
+    issuedOn: '23 June, 2026',
+    details: '',
+    href: 'https://coursera.org/share/9adce459f7fd836e3481bc2ae1540db2',
     color: '#00d4ff',
   }
 ]
