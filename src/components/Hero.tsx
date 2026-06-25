@@ -12,7 +12,7 @@ export default function Hero() {
           Information Systems student focused on responsive web apps, Android products, and
           practical system design.
         </p>
-        <a href="./Resume_NguyenThiQuynhNhi.pdf" download className="hero-btn">
+        <a href="" download className="hero-btn">
           <Download size={15} /> Download Resume
         </a>
       </div>

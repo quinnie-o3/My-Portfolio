@@ -63,6 +63,14 @@ const certificates = [
     color: '#00d4ff',
   },
   {
+    name: 'Crash Course on Python',
+    issuedOn: '23 June, 2026',
+    details: '',
+    href: 'https://coursera.org/share/9adce459f7fd836e3481bc2ae1540db2',
+    color: '#00d4ff',
+  },
+
+    {
     name: 'AWS Academy Graduate - Cloud Architecting',
     issuedOn: 'Apr 27, 2026',
     details: '',
