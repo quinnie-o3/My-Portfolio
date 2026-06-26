@@ -31,8 +31,10 @@
   background: rgba(0, 212, 255, 0.18);
   border-color: var(--cyan);
   color: var(--cyan);
-  transform: translateY(-2px);
-  box-shadow: 0 0 16px rgba(0, 212, 255, 0.2);
+  transform: translateY(-5px);
+  box-shadow:
+    0 10px 24px rgba(0, 212, 255, 0.18),
+    0 0 0 1px rgba(0, 212, 255, 0.24);
 }
 
 .contact-icon {

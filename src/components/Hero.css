@@ -41,7 +41,14 @@
   font-family: 'DM Mono',monospace; font-size: 14px; font-weight: 700;
   text-decoration: none; cursor: pointer; transition: all .25s;
 }
-.hero-btn:hover { background: rgba(0,212,255,0.2); box-shadow: 0 0 24px rgba(0,212,255,0.3); transform: translateY(-2px); }
+.hero-btn:hover {
+  background: rgba(0,212,255,0.2);
+  border-color: var(--cyan);
+  box-shadow:
+    0 10px 28px rgba(0,212,255,0.22),
+    0 0 0 1px rgba(0,212,255,0.28);
+  transform: translateY(-5px);
+}
 .hero-right { position: relative; flex-shrink: 0; }
 .hero-avatar-ring {
   width: 292px; height: 292px; border-radius: 50%;

@@ -47,7 +47,7 @@
   border-radius: 10px;
   backdrop-filter: blur(8px);
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.06);
-  transition: border-color .25s, box-shadow .25s, background .25s;
+  transition: border-color .25s, box-shadow .25s, background .25s, transform .25s;
 }
 
 .project-item::after {
@@ -110,7 +110,11 @@
 
 .project-item:hover {
   border-color: var(--project-accent);
-  box-shadow: 0 0 24px var(--project-glow), inset 0 1px 0 rgba(255,255,255,0.08);
+  transform: translateY(-5px);
+  box-shadow:
+    0 10px 28px var(--project-glow),
+    0 0 0 1px color-mix(in srgb, var(--project-accent) 32%, transparent),
+    inset 0 1px 0 rgba(255,255,255,0.1);
 }
 
 .project-item-head {
@@ -186,12 +190,14 @@
   border: 1px solid color-mix(in srgb, var(--project-accent) 42%, transparent);
   padding: 6px 11px;
   border-radius: 6px;
-  transition: background .2s, border-color .2s;
+  transition: background .2s, border-color .2s, box-shadow .2s, transform .2s;
 }
 
 .project-link:hover {
   background: color-mix(in srgb, var(--project-accent) 14%, transparent);
   border-color: var(--project-accent);
+  box-shadow: 0 8px 20px var(--project-glow);
+  transform: translateY(-3px);
 }
 
 @media (max-width: 700px) {
